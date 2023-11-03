@@ -16,10 +16,10 @@
 
 - id (PK)
 - rol
-- fecha_creacion
 - usuario_creacion
-- fecha_modificacion
 - usuario_modificacion
+- fecha_creacion
+- fecha_modificacion
 
 ## usuarios
 
@@ -30,10 +30,10 @@
 - habilitado
 - fecha
 - id_rol (FK)
-- fecha_creacion
-- fecha_modificacion
 - usuario_creacion
 - usuario_modificacion
+- fecha_creacion
+- fecha_modificacion
 
 ## enlaces
 
@@ -41,10 +41,10 @@
 - id_pagina (FK)
 - id_rol (FK)
 - descripcion
-- fecha_creacion
-- fecha_modificacion
 - usuario_creacion
 - usuario_modificacion
+- fecha_creacion
+- fecha_modificacion
 
 ## paginas
 
