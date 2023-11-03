@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('paginas', function (Blueprint $table) {
             $table->id();
 
-            $table->date('fecha_creacion');
-            $table->date('fecha_modificacion');
+            // $table->timestamp('fecha_creacion');
+            // $table->timestamp('fecha_modificacion');
             $table->string('usuario_creacion');
             $table->string('usuario_modificacion');
             $table->string('url');

@@ -16,10 +16,14 @@ class PaginaController extends Controller
     public function store(Request $request)
     {
         $pagina = new Pagina();
+        $pagina->usuario_creacion = $request->usuario_creacion;
+        $pagina->usuario_modificacion = $request->usuario_modificacion;
+        $pagina->url = $request->url;
+        $pagina->estado = $request->estado;
         $pagina->nombre = $request->nombre;
-        $pagina->apellido = $request->apellido;
-        $pagina->correo_electronico = $request->correo_electronico;
-        $pagina->fecha_nacimiento = $request->fecha_nacimiento;
+        $pagina->descripcion = $request->descripcion;
+        $pagina->icono = $request->icono;
+        $pagina->tipo = $request->tipo;
         $pagina->save();
         return "Registro Guardado Correctamente";
     }
@@ -32,10 +36,14 @@ class PaginaController extends Controller
     public function update(Request $request, string $id)
     {
         $pagina = Pagina::find($id);
+        $pagina->usuario_creacion = $request->usuario_creacion;
+        $pagina->usuario_modificacion = $request->usuario_modificacion;
+        $pagina->url = $request->url;
+        $pagina->estado = $request->estado;
         $pagina->nombre = $request->nombre;
-        $pagina->apellido = $request->apellido;
-        $pagina->correo_electronico = $request->correo_electronico;
-        $pagina->fecha_nacimiento = $request->fecha_nacimiento;
+        $pagina->descripcion = $request->descripcion;
+        $pagina->icono = $request->icono;
+        $pagina->tipo = $request->tipo;
         $pagina->save();
         return "Registro Actualizado Correctamente";
     }

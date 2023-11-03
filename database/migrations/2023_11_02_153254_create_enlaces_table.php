@@ -28,10 +28,10 @@ return new class extends Migration
                 ->onUpdate('cascade');
 
             $table->string('descripcion');
-            $table->date('fecha_creacion');
-            $table->date('fecha_modificacion');
+            // $table->date('fecha_creacion');
+            // $table->date('fecha_modificacion');
             $table->string('usuario_creacion');
-            $table->date('usuario_modificacion');
+            $table->string('usuario_modificacion');
 
             $table->timestamps();
         });

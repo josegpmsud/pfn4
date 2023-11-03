@@ -12,6 +12,6 @@ class BitacoraSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        \App\Models\Bitacora::factory(10)->create();
     }
 }

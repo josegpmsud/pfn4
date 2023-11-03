@@ -22,8 +22,8 @@ return new class extends Migration
 
             $table->string('usuario');
             $table->string('clave');
-            $table->string('habilitado');
-            $table->string('fecha');
+            $table->boolean('habilitado');
+            $table->date('fecha');
 
 
             $table->unsignedBigInteger('id_rol');
@@ -33,9 +33,9 @@ return new class extends Migration
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
 
-            $table->date('fecha_creacion');
-            $table->time('fecha_modificacion');
-            $table->ipAddress('usuario_creacion');
+            // $table->timestamp('fecha_creacion');
+            // $table->timestamp('fecha_modificacion');
+            $table->string('usuario_creacion');
             $table->string('usuario_modificacion');
 
             $table->timestamps();

@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('roles', function (Blueprint $table) {
             $table->id();
             $table->string('rol');
-            $table->date('fecha_creacion');
             $table->string('usuario_creacion');
-            $table->date('fecha_modificacion');
             $table->string('usuario_modificacion');
+            // $table->timestamp('fecha_creacion');
+            // $table->timestamp('fecha_modificacion');
             $table->timestamps();
         });
     }

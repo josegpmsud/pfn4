@@ -16,10 +16,11 @@ class EnlaceController extends Controller
     public function store(Request $request)
     {
         $enlace = new Enlace();
-        $enlace->nombre = $request->nombre;
-        $enlace->apellido = $request->apellido;
-        $enlace->correo_electronico = $request->correo_electronico;
-        $enlace->fecha_nacimiento = $request->fecha_nacimiento;
+        $enlace->id_pagina = $request->id_pagina;
+        $enlace->id_rol = $request->id_rol;
+        $enlace->descripcion = $request->descripcion;
+        $enlace->usuario_creacion = $request->usuario_creacion;
+        $enlace->usuario_modificacion = $request->usuario_modificacion;
         $enlace->save();
         return "Registro Guardado Correctamente";
     }
@@ -32,10 +33,11 @@ class EnlaceController extends Controller
     public function update(Request $request, string $id)
     {
         $enlace = Enlace::find($id);
-        $enlace->nombre = $request->nombre;
-        $enlace->apellido = $request->apellido;
-        $enlace->correo_electronico = $request->correo_electronico;
-        $enlace->fecha_nacimiento = $request->fecha_nacimiento;
+        $enlace->id_pagina = $request->id_pagina;
+        $enlace->id_rol = $request->id_rol;
+        $enlace->descripcion = $request->descripcion;
+        $enlace->usuario_creacion = $request->usuario_creacion;
+        $enlace->usuario_modificacion = $request->usuario_modificacion;
         $enlace->save();
         return "Registro Actualizado Correctamente";
     }

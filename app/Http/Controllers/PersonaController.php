@@ -16,10 +16,12 @@ class PersonaController extends Controller
     public function store(Request $request)
     {
         $persona = new Persona();
-        $persona->nombre = $request->nombre;
-        $persona->apellido = $request->apellido;
-        $persona->correo_electronico = $request->correo_electronico;
-        $persona->fecha_nacimiento = $request->fecha_nacimiento;
+        $persona->primer_nombre = $request->primer_nombre;
+        $persona->segundo_nombre = $request->segundo_nombre;
+        $persona->primer_apellido = $request->primer_apellido;
+        $persona->segundo_apellido = $request->segundo_apellido;
+        $persona->usuario_creacion = $request->usuario_creacion;
+        $persona->usuario_modificacion = $request->usuario_modificacion;
         $persona->save();
         return "Registro Guardado Correctamente";
     }
@@ -32,10 +34,12 @@ class PersonaController extends Controller
     public function update(Request $request, string $id)
     {
         $persona = Persona::find($id);
-        $persona->nombre = $request->nombre;
-        $persona->apellido = $request->apellido;
-        $persona->correo_electronico = $request->correo_electronico;
-        $persona->fecha_nacimiento = $request->fecha_nacimiento;
+        $persona->primer_nombre = $request->primer_nombre;
+        $persona->segundo_nombre = $request->segundo_nombre;
+        $persona->primer_apellido = $request->primer_apellido;
+        $persona->segundo_apellido = $request->segundo_apellido;
+        $persona->usuario_creacion = $request->usuario_creacion;
+        $persona->usuario_modificacion = $request->usuario_modificacion;
         $persona->save();
         return "Registro Actualizado Correctamente";
     }

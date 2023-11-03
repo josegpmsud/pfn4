@@ -12,6 +12,6 @@ class EnlaceSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        \App\Models\Enlace::factory(10)->create();
     }
 }

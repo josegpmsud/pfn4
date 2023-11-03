@@ -16,10 +16,9 @@ class RolController extends Controller
     public function store(Request $request)
     {
         $rol = new Rol();
-        $rol->nombre = $request->nombre;
-        $rol->apellido = $request->apellido;
-        $rol->correo_electronico = $request->correo_electronico;
-        $rol->fecha_nacimiento = $request->fecha_nacimiento;
+        $rol->rol = $request->rol;
+        $rol->usuario_creacion = $request->usuario_creacion;
+        $rol->usuario_modificacion = $request->usuario_modificacion;
         $rol->save();
         return "Registro Guardado Correctamente";
     }
@@ -32,10 +31,9 @@ class RolController extends Controller
     public function update(Request $request, string $id)
     {
         $rol = Rol::find($id);
-        $rol->nombre = $request->nombre;
-        $rol->apellido = $request->apellido;
-        $rol->correo_electronico = $request->correo_electronico;
-        $rol->fecha_nacimiento = $request->fecha_nacimiento;
+        $rol->rol = $request->rol;
+        $rol->usuario_creacion = $request->usuario_creacion;
+        $rol->usuario_modificacion = $request->usuario_modificacion;
         $rol->save();
         return "Registro Actualizado Correctamente";
     }

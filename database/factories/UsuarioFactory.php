@@ -17,7 +17,14 @@ class UsuarioFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'id_persona' => random_int(1,10),
+            'usuario' => fake()->userName(),
+            'clave' => fake()->password(),
+            'habilitado' => fake()->boolean(),
+            'fecha' => fake()->date(),
+            'id_rol' => random_int(1,10),
+            'usuario_creacion' => fake()->userName(),
+            'usuario_modificacion' => fake()->userName(),
         ];
     }
 }

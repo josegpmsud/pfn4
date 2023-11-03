@@ -17,7 +17,11 @@ class EnlaceFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'id_pagina' => random_int(1,10),
+            'id_rol' => random_int(1,10),
+            'descripcion' => fake()->text(50),
+            'usuario_creacion' => fake()->userName(),
+            'usuario_modificacion' => fake()->userName(),
         ];
     }
 }

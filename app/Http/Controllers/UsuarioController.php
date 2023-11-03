@@ -16,10 +16,14 @@ class UsuarioController extends Controller
     public function store(Request $request)
     {
         $usuario = new Usuario();
-        $usuario->nombre = $request->nombre;
-        $usuario->apellido = $request->apellido;
-        $usuario->correo_electronico = $request->correo_electronico;
-        $usuario->fecha_nacimiento = $request->fecha_nacimiento;
+        $usuario->id_persona = $request->id_persona;
+        $usuario->usuario = $request->usuario;
+        $usuario->clave = $request->clave;
+        $usuario->habilitado = $request->habilitado;
+        $usuario->fecha = $request->fecha;
+        $usuario->clave = $request->clave;
+        $usuario->habilitado = $request->habilitado;
+        $usuario->fecha = $request->fecha;
         $usuario->save();
         return "Registro Guardado Correctamente";
     }
@@ -32,10 +36,14 @@ class UsuarioController extends Controller
     public function update(Request $request, string $id)
     {
         $usuario = Usuario::find($id);
-        $usuario->nombre = $request->nombre;
-        $usuario->apellido = $request->apellido;
-        $usuario->correo_electronico = $request->correo_electronico;
-        $usuario->fecha_nacimiento = $request->fecha_nacimiento;
+        $usuario->id_persona = $request->id_persona;
+        $usuario->usuario = $request->usuario;
+        $usuario->clave = $request->clave;
+        $usuario->habilitado = $request->habilitado;
+        $usuario->fecha = $request->fecha;
+        $usuario->clave = $request->clave;
+        $usuario->habilitado = $request->habilitado;
+        $usuario->fecha = $request->fecha;
         $usuario->save();
         return "Registro Actualizado Correctamente";
     }

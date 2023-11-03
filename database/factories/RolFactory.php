@@ -17,7 +17,9 @@ class RolFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'rol' => fake()->randomElement(['admin', 'cliente', 'empleado']),
+            'usuario_creacion' => fake()->userName(),
+            'usuario_modificacion' => fake()->userName(),
         ];
     }
 }

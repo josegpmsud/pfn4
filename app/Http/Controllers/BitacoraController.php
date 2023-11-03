@@ -16,10 +16,14 @@ class BitacoraController extends Controller
     public function store(Request $request)
     {
         $bitacora = new Bitacora();
-        $bitacora->nombre = $request->nombre;
-        $bitacora->apellido = $request->apellido;
-        $bitacora->correo_electronico = $request->correo_electronico;
-        $bitacora->fecha_nacimiento = $request->fecha_nacimiento;
+        $bitacora->bitacora = $request->bitacora;
+        $bitacora->id_usuario = $request->id_usuario;
+        $bitacora->fecha = $request->fecha;
+        $bitacora->hora = $request->hora;
+        $bitacora->ip = $request->ip;
+        $bitacora->so = $request->so;
+        $bitacora->navegador = $request->navegador;
+        $bitacora->usuario = $request->usuario;
         $bitacora->save();
         return "Registro Guardado Correctamente";
     }
@@ -32,10 +36,14 @@ class BitacoraController extends Controller
     public function update(Request $request, string $id)
     {
         $bitacora = Bitacora::find($id);
-        $bitacora->nombre = $request->nombre;
-        $bitacora->apellido = $request->apellido;
-        $bitacora->correo_electronico = $request->correo_electronico;
-        $bitacora->fecha_nacimiento = $request->fecha_nacimiento;
+        $bitacora->bitacora = $request->bitacora;
+        $bitacora->id_usuario = $request->id_usuario;
+        $bitacora->fecha = $request->fecha;
+        $bitacora->hora = $request->hora;
+        $bitacora->ip = $request->ip;
+        $bitacora->so = $request->so;
+        $bitacora->navegador = $request->navegador;
+        $bitacora->usuario = $request->usuario;
         $bitacora->save();
         return "Registro Actualizado Correctamente";
     }
