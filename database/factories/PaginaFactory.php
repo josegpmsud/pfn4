@@ -23,7 +23,7 @@ class PaginaFactory extends Factory
             'url' => fake()->url(),
             'estado' => fake()->randomElement(['a', 'i']),
             'nombre' => fake()->userName(),
-            'descripcion' => fake()->date(),
+            'descripcion' => fake()->text(20),
             'icono' => fake()->url(),
             'tipo' => fake()->text(10),
         ];
