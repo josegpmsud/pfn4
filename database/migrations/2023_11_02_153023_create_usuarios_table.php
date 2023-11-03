@@ -20,7 +20,7 @@ return new class extends Migration
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
 
-            $table->string('usuario');
+            $table->string('usuario')->unique();
             $table->string('clave');
             $table->boolean('habilitado');
             $table->date('fecha');

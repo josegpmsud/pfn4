@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('url');
             $table->string('estado');
             $table->string('nombre');
-            $table->date('descripcion');
+            $table->string('descripcion');
             $table->string('icono');
             $table->string('tipo');
 
