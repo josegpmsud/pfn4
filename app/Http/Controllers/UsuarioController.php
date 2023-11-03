@@ -21,9 +21,9 @@ class UsuarioController extends Controller
         $usuario->clave = $request->clave;
         $usuario->habilitado = $request->habilitado;
         $usuario->fecha = $request->fecha;
-        $usuario->clave = $request->clave;
-        $usuario->habilitado = $request->habilitado;
-        $usuario->fecha = $request->fecha;
+        $usuario->id_rol = $request->id_rol;
+        $usuario->usuario_creacion = $request->usuario_creacion;
+        $usuario->usuario_modificacion = $request->usuario_modificacion;
         $usuario->save();
         return "Registro Guardado Correctamente";
     }
@@ -41,9 +41,9 @@ class UsuarioController extends Controller
         $usuario->clave = $request->clave;
         $usuario->habilitado = $request->habilitado;
         $usuario->fecha = $request->fecha;
-        $usuario->clave = $request->clave;
-        $usuario->habilitado = $request->habilitado;
-        $usuario->fecha = $request->fecha;
+        $usuario->id_rol = $request->id_rol;
+        $usuario->usuario_creacion = $request->usuario_creacion;
+        $usuario->usuario_creacion = $request->usuario_creacion;
         $usuario->save();
         return "Registro Actualizado Correctamente";
     }

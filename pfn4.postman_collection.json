@@ -1,0 +1,826 @@
+{
+	"info": {
+		"_postman_id": "9bbe4253-f151-48ba-a001-954743230e05",
+		"name": "pfn4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30497463"
+	},
+	"item": [
+		{
+			"name": "lista bitacoras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bitacoras",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bitacoras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver bitacora",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bitacora/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bitacora",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver enlace",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/enlace/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enlace",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver pagina",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pagina/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pagina",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver usuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/usuario/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver rol",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rol/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rol",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver persona",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/persona/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"persona",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista enlaces",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/enlaces",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enlaces"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista paginas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/paginas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"paginas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/usuarios",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista personas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/personas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"personas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "lista roles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/roles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"roles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar rol",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rol/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rol",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar bitacora",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bitacora/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bitacora",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/usuario/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar enlace",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/enlace/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enlace",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar pagina",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pagina/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pagina",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar persona",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/persona/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"persona",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear persona",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"primer_nombre\": \"Lenora\",\r\n        \"segundo_nombre\": \"Korey\",\r\n        \"primer_apellido\": \"Stark\",\r\n        \"segundo_apellido\": \"Murray\",\r\n        \"usuario_creacion\": \"ephraim47\",\r\n        \"usuario_modificacion\": \"keshaun.rippin\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/persona",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"persona"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear bitacora",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"bitacora\": \"Alice\",\r\n        \"id_usuario\": 4,\r\n        \"fecha\": \"2002-08-15\",\r\n        \"hora\": \"00:59:41\",\r\n        \"ip\": \"26.246.176.80\",\r\n        \"so\": \"Ut maiores.\",\r\n        \"navegador\": \"Nihil quo eum deserunt.\",\r\n        \"usuario\": \"turcotte.elaina\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bitacora",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bitacora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear enlace",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"id_pagina\": 3,\r\n        \"id_rol\": 6,\r\n        \"descripcion\": \"Voluptas quia consequuntur maiores perferendis.\",\r\n        \"usuario_creacion\": \"king.dax\",\r\n        \"usuario_modificacion\": \"pink91\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/enlace",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enlace"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear rol",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"rol\": \"empleado\",\r\n        \"usuario_creacion\": \"joanie05\",\r\n        \"usuario_modificacion\": \"shoppe\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rol",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rol"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"id_persona\": 2,\r\n        \"usuario\": \"murazik.kasey\",\r\n        \"clave\": \"\\\"!C)s@\",\r\n        \"habilitado\": 0,\r\n        \"fecha\": \"1992-01-23\",\r\n        \"id_rol\": 7,\r\n        \"usuario_creacion\": \"shaylee89\",\r\n        \"usuario_modificacion\": \"lind.priscilla\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/usuario",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear pagina",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"usuario_creacion\": \"aletha.walsh\",\r\n        \"usuario_modificacion\": \"king.dock\",\r\n        \"url\": \"http://jacobson.net/est-qui-ut-occaecati-eum-veritatis\",\r\n        \"estado\": \"a\",\r\n        \"nombre\": \"fahey.owen\",\r\n        \"descripcion\": \"2001-05-11\",\r\n        \"icono\": \"https://johnston.com/delectus-sequi-dolores-iusto-beatae-aut-voluptatum-quis.html\",\r\n        \"tipo\": \"Debitis.\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pagina",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pagina"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar pagina",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"usuario_creacion\": \"aletha.walsh\",\r\n        \"usuario_modificacion\": \"king.dock\",\r\n        \"url\": \"http://jacobson.net/est-qui-ut-occaecati-eum-veritatis\",\r\n        \"estado\": \"a\",\r\n        \"nombre\": \"fahey.owend1000\",\r\n        \"descripcion\": \"2001-05-11\",\r\n        \"icono\": \"https://johnston.com/delectus-sequi-dolores-iusto-beatae-aut-voluptatum-quis.html\",\r\n        \"tipo\": \"Debitis.\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/pagina/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pagina",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar rol",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"rol\": \"empleado\",\r\n        \"usuario_creacion\": \"joanie05dddd\",\r\n        \"usuario_modificacion\": \"shoppegggggg\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rol/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rol",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar enlace",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"id_pagina\": 3,\r\n        \"id_rol\": 6,\r\n        \"descripcion\": \"AAAAAmaiores perferendis.\",\r\n        \"usuario_creacion\": \"king.dax\",\r\n        \"usuario_modificacion\": \"pink91\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/enlace/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"enlace",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n       \r\n        \"id_persona\": 2,\r\n        \"usuario\": \"murazik.kasey\",\r\n        \"clave\": \"\\\"!C)s@\",\r\n        \"habilitado\": 0,\r\n        \"fecha\": \"1992-01-23\",\r\n        \"id_rol\": 7,\r\n        \"usuario_creacion\": \"shaylee89\",\r\n        \"usuario_modificacion\": \"lind.priscilla\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/usuario/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"usuario",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar bitacora",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n       \r\n        \"bitacora\": \"Alice\",\r\n        \"id_usuario\": 4,\r\n        \"fecha\": \"2002-08-15\",\r\n        \"hora\": \"00:59:41\",\r\n        \"ip\": \"26.246.176.80\",\r\n        \"so\": \"Ut maiores.\",\r\n        \"navegador\": \"Nihil quo eum deserunt.\",\r\n        \"usuario\": \"turcotte.elaina\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/bitacora/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"bitacora",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editar persona",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \r\n        \"primer_nombre\": \"Lenora\",\r\n        \"segundo_nombre\": \"Korey\",\r\n        \"primer_apellido\": \"Stark\",\r\n        \"segundo_apellido\": \"Murray\",\r\n        \"usuario_creacion\": \"ephraim47\",\r\n        \"usuario_modificacion\": \"keshaun.rippin\"\r\n        \r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/persona/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"persona",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
