@@ -567,7 +567,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \r\n        \"id_persona\": 2,\r\n        \"usuario\": \"murazik.kasey\",\r\n        \"clave\": \"\\\"!C)s@\",\r\n        \"habilitado\": 0,\r\n        \"fecha\": \"1992-01-23\",\r\n        \"id_rol\": 7,\r\n        \"usuario_creacion\": \"shaylee89\",\r\n        \"usuario_modificacion\": \"lind.priscilla\"\r\n        \r\n    }",
+					"raw": "{\r\n        \r\n        \"id_persona\": 2,\r\n        \"usuario\": \"catonnew\",\r\n        \"clave\": \"\\\"!C)s@\",\r\n        \"habilitado\": 0,\r\n        \"fecha\": \"1992-01-23\",\r\n        \"id_rol\": 7,\r\n        \"usuario_creacion\": \"shaylee89\",\r\n        \"usuario_modificacion\": \"lind.priscilla\"\r\n        \r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -730,7 +730,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n       \r\n        \"id_persona\": 2,\r\n        \"usuario\": \"murazik.kasey\",\r\n        \"clave\": \"\\\"!C)s@\",\r\n        \"habilitado\": 0,\r\n        \"fecha\": \"1992-01-23\",\r\n        \"id_rol\": 7,\r\n        \"usuario_creacion\": \"shaylee89\",\r\n        \"usuario_modificacion\": \"lind.priscilla\"\r\n    }",
+					"raw": "{\r\n       \r\n        \"id_persona\": 2,\r\n        \"usuario\": \"josegpmsud\",\r\n        \"clave\": \"\\\"!C)s@\",\r\n        \"habilitado\": 0,\r\n        \"fecha\": \"1992-01-23\",\r\n        \"id_rol\": 7,\r\n        \"usuario_creacion\": \"shaylee89\",\r\n        \"usuario_modificacion\": \"lind.priscilla\"\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
